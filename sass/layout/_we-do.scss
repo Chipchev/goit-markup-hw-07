@@ -1,0 +1,39 @@
+/* We-Do Section */
+.we-do-section {
+  padding: 94px 0 94px 0;
+}
+.we-do {
+  margin-bottom: 50px;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+.our-work {
+  display: flex;
+}
+.our-work li:not(:last-child) {
+  margin-right: 30px;
+}
+.we-do-thumb {
+  position: relative;
+}
+.we-do-overlay {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 27px 0;
+  margin: 0;
+  background-color: var(--bg-color);
+  opacity: 0.8;
+
+  color: #ffffff;
+}

@@ -1,0 +1,41 @@
+/* Our-Positive Section */
+.our-positive {
+  padding-top: 94px;
+}
+
+.our-skills {
+  display: flex;
+}
+.our-skills li:not(:last-child) {
+  margin-right: 30px;
+}
+.our-skills h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+.our-skills p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: var(--p-color);
+}
+/* Our Positive Icons */
+.our-positive-icon-container {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg2-color);
+  margin-bottom: 30px;
+}
+
+.our-positive-icon-item {
+  height: 70px;
+  width: 70px;
+}

@@ -1,0 +1,50 @@
+/*Start Banner Section Styles (HERO)*/
+.banner {
+  max-width: 1600px;
+  padding: 200px 0;
+  margin: 0 auto;
+  background-color: var(--bg-color);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/background_image.jpg);
+}
+.h1-studio {
+  display: block;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+}
+.button {
+  background-color: var(--hover-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 30px;
+  border: 0;
+  transition: var(--animation);
+}
+.button span {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  padding: 10px 32px;
+}
+.button:hover,
+.button:focus {
+  background-color: #188ce8;
+}
