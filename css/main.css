@@ -966,6 +966,12 @@ img {
 }
 
 /* SUBSCRIBE (FOOTER) */
+.subscribe-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .subscribe-headder {
   display: inline-block;
   font-weight: bold;
