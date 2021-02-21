@@ -1,15 +1,15 @@
-//BASE
-@import "./utils/variables";
-@import "./base/common";
-
 //UTILS
-@import "./base/container";
+@import "./utils/variables";
 @import "./utils/visually-hidden";
 @import "./utils/keyframes";
 @import "./utils/back-drop";
 
+//BASE
+@import "./base/common";
+@import "./base/container";
+
 //COMPONENTS
-@import "./utils/current-link";
+@import "./components/current-link";
 @import "./components/header-line";
 @import "./components/social-list";
 
