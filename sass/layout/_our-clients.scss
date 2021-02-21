@@ -20,10 +20,18 @@
   height: 90px;
   border: 1px solid var(--icon-color);
   border-radius: 4px;
+  &:hover,
+  &:focus {
+    border-color: var(--hover-color);
+  }
 }
 .clients-list-icon {
   fill: var(--icon-color);
   transition: var(--animation);
+  .clients-list-link:hover &,
+  .clients-list-link:focus & {
+    fill: var(--hover-color);
+  }
 }
 
 .client-1 {
@@ -49,12 +57,4 @@
 .client-6 {
   width: 88px;
   height: 45px;
-}
-.clients-list-link:hover,
-.clients-list-link:focus {
-  border-color: var(--hover-color);
-}
-.clients-list-link:hover .clients-list-icon,
-.clients-list-link:focus .clients-list-icon {
-  fill: var(--hover-color);
 }

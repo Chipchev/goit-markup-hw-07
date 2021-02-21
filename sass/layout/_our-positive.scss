@@ -5,24 +5,24 @@
 
 .our-skills {
   display: flex;
-}
-.our-skills li:not(:last-child) {
-  margin-right: 30px;
-}
-.our-skills h3 {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--text-color);
-}
-.our-skills p {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 171%;
-  letter-spacing: 0.03em;
-  color: var(--p-color);
+  & li:not(:last-child) {
+    margin-right: 30px;
+  }
+  & h3 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-color);
+  }
+  & p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+    color: var(--p-color);
+  }
 }
 /* Our Positive Icons */
 .our-positive-icon-container {

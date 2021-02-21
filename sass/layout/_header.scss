@@ -1,5 +1,8 @@
 .header {
   width: 100%;
+  & li:not(.last-nav) {
+    margin-right: 50px;
+  }
 }
 .header-container {
   margin-left: auto;
@@ -24,52 +27,41 @@
   justify-content: space-between;
   align-items: center;
   padding: 32px 0 32px 0;
+  & a {
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    transition: var(--animation);
+    &:hover,
+    &:focus {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.02em;
+      color: var(--hover-color);
+    }
+  }
 }
 .logo-web {
   color: var(--hover-color);
-}
-
-.logo-studio {
-  margin-right: 93px;
-}
-
-.header li:not(.last-nav) {
-  margin-right: 50px;
-}
-
-.logo-web {
-  color: var(--hover-color);
-  font-family: "Raleway";
+  font-family: var(--font-second);
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
 }
+
 .logo-studio {
+  margin-right: 93px;
   color: black;
   font-family: "Raleway";
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-}
-
-.nav-list a {
-  position: relative;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
-  transition: var(--animation);
-}
-.nav-list a:hover,
-.nav-list a:focus {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: var(--hover-color);
 }
 
 .adress-top a {
@@ -80,20 +72,20 @@
   letter-spacing: 0.02em;
   color: var(--p-color);
   transition: var(--animation);
+  &:hover,
+  &:focus {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--hover-color);
+  }
 }
-.adress-top a:hover,
-.adress-top a:focus {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: var(--hover-color);
-}
+
 .top-mail {
   margin-right: 50px;
 }
-/* Header Icons */
 
 .mail-icon {
   fill: currentColor;

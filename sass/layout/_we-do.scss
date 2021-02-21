@@ -11,10 +11,12 @@
 }
 .our-work {
   display: flex;
+  justify-content: center;
+  & li:not(:last-child) {
+    margin-right: 30px;
+  }
 }
-.our-work li:not(:last-child) {
-  margin-right: 30px;
-}
+
 .we-do-thumb {
   position: relative;
 }
@@ -23,7 +25,6 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 70px;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -34,6 +35,5 @@
   margin: 0;
   background-color: var(--bg-color);
   opacity: 0.8;
-
   color: #ffffff;
 }

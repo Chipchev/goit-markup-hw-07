@@ -7,6 +7,10 @@
   width: 20px;
   height: 20px;
   fill: var(--icon-color);
+  .social-list-link:hover &,
+  .social-list-link:focus & {
+    fill: #ffffff;
+  }
 }
 .social-list-link {
   display: flex;
@@ -16,13 +20,9 @@
   height: 44px;
   border-radius: 50%;
   transition: var(--animation);
-}
-.social-list-link:hover,
-.social-list-link:focus {
-  background-color: var(--hover-color);
-  fill: #ffffff;
-}
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-  fill: #ffffff;
+  &:hover,
+  &:focus {
+    background-color: var(--hover-color);
+    fill: #ffffff;
+  }
 }

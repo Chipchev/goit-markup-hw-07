@@ -1,12 +1,12 @@
+//BASE
+@import "./utils/variables";
+@import "./base/common";
+
 //UTILS
 @import "./base/container";
 @import "./utils/visually-hidden";
 @import "./utils/keyframes";
 @import "./utils/back-drop";
-
-//BASE
-@import "./utils/variables";
-@import "./base/common";
 
 //COMPONENTS
 @import "./utils/current-link";
